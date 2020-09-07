@@ -1,13 +1,15 @@
 import React from "react";
-import "./App.css";
-
-function App() {
+import "./App.scss";
+import HomePage from "./pages/HomePage";
+import { BrowserRouter as Router } from "react-router-dom";
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-      <h1>This is David</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <HomePage />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  width: 90%;
+  height: 100px;
+  justify-content: space-between;
+  padding-top: 1rem;
+  margin: auto;
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  ul {
+    display: flex;
+
+
+    li {
+      padding: 1rem 1.5rem;
+
+
+    }
+
+
+
+  }
+
+
+}
