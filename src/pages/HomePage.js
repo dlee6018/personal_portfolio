@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "../components/navigation/Navigation.js";
+import Header from "../components/header/Header";
 const HomePage = () => {
   return (
     <div className="homepage">
-      <Navigation />
+      <Header />
     </div>
   );
 };

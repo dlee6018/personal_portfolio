@@ -18,7 +18,14 @@
     li {
       padding: 1rem 1.5rem;
 
+      a {
+        color: #fff;
+        border-bottom: 3px transparent solid;
 
+        &:hover {
+          border-color: #ffff00;
+        }
+      }
     }
 
 
