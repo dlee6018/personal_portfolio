@@ -1,21 +1,15 @@
+@import '../../utilities.scss';
+
 .header-content {
   background: url(../../assets/img/showcase.jpg) no-repeat center/cover;
   height: 100vh;
   color: #fff;
-
-
-
-}
-
-.text-content {
-  margin-top: 220px;
-  font-size: 2rem;
-  vertical-align: center;
-  line-height: 90px;
   text-align: center;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
+.text-content {
+  margin-top: 20%;
+  font-size: 2rem;
+  vertical-align: center;
+  line-height: 90px;
 }

@@ -12,7 +12,7 @@ const Header = () => {
         </h1>
         <p>I specialize in Fullstack Web and Scripting</p>
       </div>
-      <NavLink to="/work" exact className="button">
+      <NavLink to="/work" exact className="btn-light">
         View My Work
       </NavLink>
     </div>
