@@ -129,6 +129,7 @@ input[class^='btn-']:hover {
   }
 }
 
+//display block allows to set width and height; display:inline = default not allowed
 .section-title {
   font-size: 2rem;
   display: block;
@@ -139,7 +140,7 @@ input[class^='btn-']:hover {
 }
 
 .bottom-line {
-  height: 2px;
+  height: 5px;
   width: 3rem;
   background: $main-color;
   display: block;
